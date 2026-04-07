@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion"
 import { MapPin, Github } from "lucide-react"
+import Perfil from "../../public/perfil.jpg"
+import NextImage from "next/image"
 
 const conhecimentos = [
   "React.js",
@@ -43,11 +45,13 @@ export default function Sobre() {
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/30 p-6">
               <div className="flex items-start gap-5">
                 <div className="relative flex-shrink-0">
-                  <div className="h-20 w-20 overflow-hidden rounded-xl">
-                    <img 
-                      src="/teste.jpg" 
-                      alt="Foto de perfil da Laís" 
-                      className="h-full w-full object-cover"
+                  <div className="h-20 w-20 overflow-hidden rounded-xl relative">
+                    <NextImage 
+                      src={Perfil} 
+                      alt="Foto de perfil" 
+                      fill 
+                      className="object-cover"
+                      priority 
                     />
                   </div>
                   <span className="absolute -bottom-1 -right-1 h-4 w-4 rounded-full border-2 border-zinc-900 bg-green-500" />
