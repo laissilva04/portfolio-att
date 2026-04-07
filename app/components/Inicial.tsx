@@ -58,7 +58,8 @@ export default function Hero() {
       <div className="mx-auto w-full max-w-6xl px-6 py-20">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           
-          <div className="order-2 lg:order-1">
+          {/* TEXTO: Agora é order-1 no mobile e mantém order-1 no desktop */}
+          <div className="order-1">
             <motion.span {...animationProps()} className="text-cyan-400 font-mono text-sm tracking-wide block">
               {HERO_CONTENT.label}
             </motion.span>
@@ -93,8 +94,9 @@ export default function Hero() {
             </motion.div>
           </div>
 
+          {/* CODEBLOCK: Agora é order-2 no mobile e order-2 no desktop */}
           <motion.div 
-            className="order-1 lg:order-2 relative"
+            className="order-2 relative"
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
