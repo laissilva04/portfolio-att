@@ -45,7 +45,7 @@ export default function Sobre() {
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/30 p-6">
               <div className="flex items-start gap-5">
                 <div className="relative flex-shrink-0">
-                  <div className="h-20 w-20 overflow-hidden rounded-xl relative">
+                  <div className="h-28 w-28 overflow-hidden rounded-xl relative">
                     <NextImage 
                       src={Perfil} 
                       alt="Foto de perfil" 
