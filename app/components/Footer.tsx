@@ -1,40 +1,74 @@
-import { Github, Mail, Linkedin } from "lucide-react"
+"use client"
+
+import { Mail, Github, Linkedin } from "lucide-react"
+
+const socialLinks = [
+  {
+    icon: Github,
+    href: "https://github.com/laissilva04",
+    label: "GitHub",
+  },
+  {
+    icon: Mail,
+    href: "mailto:p4v22bnhdn@privaterelay.app",
+    label: "Email",
+  },
+  {
+    icon: Linkedin,
+    href: "https://www.linkedin.com/in/lais-barbosaqa/",
+    label: "LinkedIn",
+  },
+]
 
 export default function Footer() {
-  return (
-    <footer className="bg-background border-t border-border">
-      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
-        <div className="text-center">
-          <p className="text-sm leading-5 text-muted-foreground mb-6">Lais Barbosa. Alguns direitos reservados.</p>
+  const currentYear = new Date().getFullYear()
 
-         
-          <div className="flex justify-center space-x-6">
-            <a
-              href="https://github.com/laissilva04"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-              aria-label="GitHub"
-            >
-              <Github className="h-6 w-6" />
-            </a>
-            <a
-              href="mailto:lais2209la@gmail.com"
-              className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-              aria-label="Email"
-            >
-              <Mail className="h-6 w-6" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/lais-barbosa-871678266"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="h-6 w-6" />
-            </a>
+  return (
+    <footer className="relative bg-[#0a0a0f] border-t border-zinc-800/50">
+      <div className="mx-auto max-w-6xl px-6 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+          <div>
+            <h3 className="text-lg font-bold text-zinc-100 mb-2">
+              Laís Barbosa
+            </h3>
+            <p className="text-sm text-zinc-400">
+              QA Analyst & Front-end Developer
+            </p>
           </div>
+
+          <div>
+            <h4 className="text-sm font-semibold text-zinc-100 mb-4 uppercase tracking-wider">
+              Conecte-se
+            </h4>
+            <div className="flex gap-4">
+              {socialLinks.map((social) => {
+                const Icon = social.icon
+                return (
+                  <a
+                    key={social.label}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={social.label}
+                    className="flex h-10 w-10 items-center justify-center rounded-lg border border-zinc-800 bg-zinc-900/30 text-zinc-400 transition-all duration-300 hover:border-cyan-400/30 hover:bg-cyan-400/5 hover:text-cyan-400"
+                  >
+                    <Icon className="h-5 w-5" />
+                  </a>
+                )
+              })}
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-zinc-800/50 pt-8" />
+
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-zinc-500">
+            © {currentYear} Laís Barbosa. Todos os direitos reservados.
+          </p>
+          <p className="text-xs text-zinc-600">
+            Desenvolvido com <span className="text-pink-400">♥</span> usando React, TypeScript e Tailwind CSS
+          </p>
         </div>
       </div>
     </footer>

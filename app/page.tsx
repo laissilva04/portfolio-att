@@ -1,21 +1,21 @@
-import Hero from "./components/Hero"
-import PortfolioGrid from "./components/PortfolioGrid"
-import Timeline from "./components/Timeline"
+import Inicial from "./components/Inicial"
+import Projetos from "./components/Projetos"
+import Experiencias from "./components/Experiencias"
 import Carrossel from "./components/Carrossel"
-import ContactForm from "./components/ContactForm"
+import Contato from "./components/Contato"
 import Formacao from "./components/Formacao"
-import Header from "./components/Header.jsx"
+import Sobre from "./components/Sobre"
 
 export default function Home() {
   return (
     <>
-      <Header/>
-      <Hero />
-      <Timeline />
-      <PortfolioGrid />
+      <Inicial />
+      <Sobre/>
       <Carrossel />
+      <Projetos />
+      <Experiencias />
       <Formacao/>
-      <ContactForm />
+      <Contato />
     </>
   )
 }

@@ -4,26 +4,26 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
+    --background: 222 22% 6%;
     --foreground: 0 0% 100%;
-    --card: 50, 5%, 5%;
-    --card-foreground: 20 0% 100%;
-    --popover: 0 0% 0%;
+    --card: 222 20% 9%;
+    --card-foreground: 0 0% 100%;
+    --popover: 222 22% 6%;
     --popover-foreground: 0 0% 100%;
-    --primary: 210 100% 50%; 
-    --primary-foreground: 0 0% 0%;
-    --secondary: 200 100% 50%;
-    --secondary-foreground: 0 0% 0%;
-    --muted: 0 0% 80%;
-    --muted-foreground: 0 0% 100%;
-    --accent: 0 0% 80%;
+    --primary: 210 100% 56%;
+    --primary-foreground: 222 22% 6%;
+    --secondary: 222 16% 16%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 222 14% 16%;
+    --muted-foreground: 215 15% 70%;
+    --accent: 222 16% 16%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
-    --border: 0 0% 80%;
-    --input: 0 0% 80%;
-    --ring: 60 100% 50%;
-    --radius: 0.5rem;
+    --border: 222 12% 18%;
+    --input: 222 12% 18%;
+    --ring: 210 100% 56%;
+    --radius: 1rem;
   }
 }
 
@@ -49,10 +49,40 @@
   @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
 }
 
+.text-gradient-bright {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-sky-300 to-fuchsia-300;
+}
+
 .hover-lift {
   @apply transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+@layer components {
+  .page-section {
+    @apply relative overflow-hidden py-20;
+  }
+  .page-container {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .surface-card {
+    @apply rounded-3xl border border-border/70 bg-card/70 backdrop-blur-md;
+  }
+  .dot-grid {
+    background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.10) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+
+  .hero-title {
+    text-shadow:
+      0 1px 0 rgba(0, 0, 0, 0.35),
+      0 16px 50px rgba(0, 0, 0, 0.55);
+  }
+
+  .hero-spotlight {
+    background: radial-gradient(600px circle at var(--mx, 50%) var(--my, 40%), rgba(59, 130, 246, 0.22), transparent 42%);
+  }
 }
