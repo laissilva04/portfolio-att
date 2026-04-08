@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { GraduationCap, BookOpen, Clock, Github } from "lucide-react"
 
 const graduacao = {
-  degree: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+  degree: "Tecnólogia em Análise e Desenvolvimento de Sistemas",
   institution: "Universidade de Fortaleza (UNIFOR)",
   period: "jun. 2023 — dez. 2025",
   type: "Graduação",
@@ -69,16 +69,6 @@ export default function Formacao() {
                   </h3>
                   <p className="mt-2 text-sm font-medium text-cyan-400">{graduacao.period}</p>
                   <p className="mt-3 text-sm text-zinc-400">{graduacao.institution}</p>
-
-                  <a 
-                    href="https://github.com/laissilva04" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="mt-8 inline-flex items-center gap-2 text-xs font-mono text-zinc-500 hover:text-cyan-400 transition-colors"
-                  >
-                    <Github className="h-3.5 w-3.5" />
-                    <span>github/laissilva04</span>
-                  </a>
                 </div>
               </div>
             </div>

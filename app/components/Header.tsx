@@ -7,8 +7,8 @@ import { useState } from "react"
 
 const nav = [
   { label: "Sobre", href: "#sobre" },
-  { label: "Experiência", href: "#experiencia" },
   { label: "Projetos", href: "#projetos" },
+  { label: "Experiência", href: "#experiencia" },
   { label: "Formação", href: "#formacao" },
   { label: "Contato", href: "#contato" },
 ]
