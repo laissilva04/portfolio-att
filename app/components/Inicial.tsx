@@ -49,7 +49,7 @@ export default function Hero() {
   })
 
   return (
-    <section className="relative min-h-screen flex items-center bg-[#0a0a0f] overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center bg-[#0a0a0f] overflow-hidden">
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute top-0 right-0 h-[600px] w-[600px] bg-cyan-500/5 blur-[150px] rounded-full" />
         <div className="absolute bottom-0 left-0 h-[400px] w-[400px] bg-blue-500/5 blur-[120px] rounded-full" />
@@ -110,7 +110,7 @@ export default function Hero() {
 
 const ScrollIndicator = () => (
   <motion.div 
-    className="absolute bottom-8 left-1/2 -translate-x-1/2 mb-10"
+    className="absolute bottom-8 left-1/2 -translate-x-1/2"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ delay: 1 }}
