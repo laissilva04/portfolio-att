@@ -100,7 +100,6 @@ export default function Hero() {
             <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 blur-2xl rounded-3xl" />
             <CodeBlock />
           </motion.div>
-
         </div>
       </div>
 
@@ -111,7 +110,7 @@ export default function Hero() {
 
 const ScrollIndicator = () => (
   <motion.div 
-    className="absolute bottom-8 left-1/2 -translate-x-1/2"
+    className="absolute bottom-8 left-1/2 -translate-x-1/2 mb-10"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ delay: 1 }}
