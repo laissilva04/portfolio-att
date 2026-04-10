@@ -1,0 +1,82 @@
+<div align="center">
+
+<img height="190" src="https://user-images.githubusercontent.com/74038190/212259363-d40b7a35-375b-470c-b4e2-2d9cb8ac706c.png" alt="Baby Groot"/>
+
+# Laís Barbosa
+
+**`QA Analyst & Front-end Developer`**
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=500&lines=Automa%C3%A7%C3%A3o+de+testes+E2E+com+Playwright;Desenvolvimento+Front-end+com+React;Qualidade+aplicada+a+cada+entrega)](https://git.io/typing-svg)
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](http://linkedin.com/in/lais-barbosa-871678266/)
+[![Gmail](https://img.shields.io/badge/-Gmail-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:laissilva@edu.unifor.br)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/laiswll/)
+
+</div>
+
+<br>
+
+## Sobre mim
+
+```javascript
+const lais = {
+    education: "Análise e Desenvolvimento de Sistemas @ UNIFOR",
+    roles: ["QA Analyst", "Front-end Developer"]
+};
+```
+
+<br>
+
+## Tech Stack
+
+<div align="center">
+
+**Front-end**
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Testing & QA**
+
+![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Robot Framework](https://img.shields.io/badge/-Robot%20Framework-000000?style=flat-square&logo=robotframework&logoColor=white)
+
+**Back-end & Tools**
+
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+
+</div>
+
+<br>
+
+## GitHub Stats
+
+<div align="center">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=laissilva04&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=22D3EE&icon_color=22D3EE&text_color=c9d1d9&hide_title=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=laissilva04&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=22D3EE&text_color=c9d1d9&hide_title=true"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=laissilva04&theme=github-dark-blue&hide_border=true&background=0d1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=c9d1d9"/>
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+**Thanks for visiting!**
+
+</div>

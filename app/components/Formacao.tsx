@@ -11,11 +11,12 @@ const graduacao = {
 }
 
 const cursos = [
+  { name: "Git e GitHub: dominando controle de versão de código", institution: "Alura", hours: 8 },
   { name: "React 19: JSX, Componentes, FormAction e UseState", institution: "Alura", hours: 12 },
-  { name: "Desenvolvimento Front-End com React", institution: "Origamid", hours: 23 },
-  { name: "Universo Robot", institution: "Udemy", hours: 14 },
   { name: "Oracle Cloud Infrastructure 2023 AI", institution: "Oracle University", hours: 8 },
+  { name: "Desenvolvimento Front-End com React.js", institution: "Origamid", hours: 23 },
   { name: "CSS FlexBox", institution: "Udemy", hours: 5 },
+  { name: "Universo Robot", institution: "Udemy", hours: 14 },
   { name: "Projetos de Sistema de TI", institution: "Bradesco", hours: 12 },
   { name: "Introdução ao Desenvolvimento Full-Stack", institution: "DIO", hours: 12 },
 ]
